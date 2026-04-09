@@ -25,11 +25,6 @@ venv\Scripts\activate     # Windows
 pip install -r requirements.txt
 ```
 
-### 3. TMDb API Anahtarı
-1. [TMDb](https://www.themoviedb.org/) hesabı oluşturun
-2. Account Settings > API > Request an API Key
-3. `config/.env` dosyasında `your_tmdb_api_key_here` kısmına kendi API anahtarınızı yapıştırın
-
 ## 🎯 Kullanım
 ```bash
 python main.py
@@ -88,3 +83,4 @@ python main.py
 ├── config/.env        # API key
 ├── main.py            # Main application
 └── requirements.txt   # Required packages
+```
