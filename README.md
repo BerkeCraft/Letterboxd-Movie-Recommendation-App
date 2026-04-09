@@ -46,3 +46,45 @@ python main.py
 ├── main.py            # Ana uygulama
 └── requirements.txt   # Gerekli paketler
 ```
+
+Letterboxd Movie Recommendation App
+
+🎬 Description
+A Python/Tkinter-based desktop application that analyzes your Letterboxd profile and provides personalized movie recommendations.
+
+📋 Features
+
+Fetches watched and rated films from your Letterboxd profile
+Enriches movie data using the TMDb API
+Smart recommendation algorithm based on films rated 3+
+Modern Tkinter user interface
+Up to 10 movie recommendations
+
+🚀 Installation
+
+Python Virtual Environment
+python -m venv venv
+source venv/bin/activate  # Mac/Linux
+# or
+venv\Scripts\activate     # Windows
+Required Libraries
+pip install -r requirements.txt
+TMDb API Key
+Create a TMDb account
+Go to Account Settings > API > Request an API Key
+Paste your API key into config/.env in place of your_tmdb_api_key_here
+
+🎯 Usage
+
+python main.py
+
+📁 Project Structure
+
+├── modules/
+│   ├── scraper.py     # Letterboxd web scraping
+│   ├── tmdb_api.py    # TMDb integration
+│   ├── recommender.py # Recommendation algorithm
+│   └── ui.py          # Tkinter interface
+├── config/.env        # API key
+├── main.py            # Main application
+└── requirements.txt   # Required packages
